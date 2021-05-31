@@ -4,6 +4,6 @@ import lombok.Data;
 
 @Data
 public class SampleData {
-    public double price;
-    public Info info;
+    private double price;
+    private Info info;
 }

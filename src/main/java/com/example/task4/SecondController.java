@@ -12,7 +12,7 @@ public class SecondController {
     @PostMapping("/second")
     public SampleData getRequest(@RequestBody SampleData data) {
         var random = new Random();
-        data.getInfo().setId(random.nextInt(1000));
+        data.getInfo().setId(random.nextInt(100));
         return data;
     }
 }
